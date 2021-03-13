@@ -1,4 +1,14 @@
-# Instalasi
+# Ghost
+
+![Ghost](https://snipcart.com/media/204295/ghost.png)
+
+
+## Sekilas Tentang
+
+Ghost adalah platform blogging CMS (content management system) open source yang berdiri di atas stack Node.js modern yang didesain untuk beroperasi dengan powerful, fleksibel, dan minimalis. Ghost menyediakan ruang bagi penggunanya untuk menulis konten dengan editor yang bagus dan mudah untuk didesain sehingga terkesan reader-friendly bagi pembaca. Pengguna dapat mengatur cutom domain sendiri dan men-hosting sekaligus mengedit langsung dari CMS Ghost.
+
+
+## Instalasi
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
@@ -103,4 +113,31 @@
       ![4](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/gohst-web-04.png)
       
 9. Next step.
+
+
+## Pembahasan
+
+**Ghost** menawarkan beberapa keunggulan yang menjadikannya sebagai salah satu content management system berbasis Javascript yang banyak dipakai di dunia, antara lain:
+- Ghost memiliki fitur SEO Optimization, yang mana merupakan salah satu fitur wajib dan penting dalam suatu CMS.
+- Dikembangkan dengan bahasa pemrograman Javascript yang lebih modern dan memiliki performa cukup baik.
+- Desain yang minimalis dan reader-friendly.
+- Ghost hanya fokus pada blogging, sehingga ringan dan sangat cepat untuk dikembangkan.
+- Dokumentasi yang tersedia lumayan lengkap.
+
+Sementara itu di sisi lain, terdapat beberapa kekurangan dari CMS ini antara lain :
+- Ghost kurang cocok untuk pengembangan fitur yang lebih dari sekedar blog.
+- Tema yang disediakan masih terbatas.
+- Setup hosting yang lumayan rumit, sehingga kurang disarankan untuk blogger yang tidak memiliki wawasan teknikal mengenai hosting website.
+
+Sebagai komparasi, kami mencoba membandingkan **Ghost** dengan **Wordpress**. Berikut hasil komparasinya :
+- Ghost ditulis dengan bahasa pemrograman Javascript, sementara Wordpress dibangun dengan bahasa pemrograman PHP. Hal ini membuat performa Ghost menjadi lebih kencang dibanding Wordpress yang menggunakan bahasa pemrograman yang lebih lama.
+- Fitur-fitur yang tersedia pada Wordpress sangat lengkap, sehingga kustomisasi yang dapat dilakukan dapat bervariasi. Namun ftur yang lengkap menyebabkan Wordpress dianggap *bulk*. Sementara itu Ghost tidak memiliki fitur yang selengkap Wordpress, namun Ghost jauh lebih ringan dan performanya cepat. Akan tetapi hal tersebut membuat Ghost kurang cocok untuk pengembangan blog yang lebih dari sekedar blog biasa.
+- Hosting Wordpress didukung oleh banyak layanan hosting, sementara Ghost kurang didukung karena berdiri pada stack Node.js sehingga Ghost menyediakan layanan hosting sendiri.
+
+
+## Referensi
+
+- Dokumentasi resmi Ghost :
+
+https://ghost.org/docs
 
