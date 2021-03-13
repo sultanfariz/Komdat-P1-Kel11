@@ -24,7 +24,7 @@
     # Lalu login dengan akun baru yang berhasil dibuat
     su - <user>
     ```
-
+##### Memperbarui packages
 2. Pastikan seluruh paket sistem kita *up-to-date*, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
     ```
     $ sudo apt-get update
