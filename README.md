@@ -9,10 +9,20 @@
 - RAM minimal 64 Mb+
 
 #### Proses Instalasi :
-##### asd
-1. Login kedalam server dasdasmenggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
+##### Membuat user baru :
+1. Buka terminal Linux Anda dan login menggunakan SSH, setalah itu dianjurkan untuk membuat akun baru manggunakan _command_ `addUser`. Setelah berhasil membuat akun, berikan _privileges_ dengan mengubah ke _superuser_. Jika berhasil, login dengan akun baru tersebut. Berikut perintah yang harus dilakukan :
     ```
-    $ ssh adam@172.18.88.88 -p 22
+    # Login menggunakan SSH
+    ssh root@your_server_ip
+
+    # Membuat user baru menggunakan terminal
+    adduser <user>
+    
+    # Berikan privileges pada akun baru tersebut
+    usermod -aG sudo <user>
+
+    # Lalu login dengan akun baru yang berhasil dibuat
+    su - <user>
     ```
 
 2. Pastikan seluruh paket sistem kita *up-to-date*, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
@@ -118,4 +128,3 @@
 11. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
     ```
     $ sudo rm -rf /var/www/html/prestashop/install
-    ```
