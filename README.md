@@ -101,15 +101,29 @@ Ghost adalah platform blogging CMS (content management system) open source yang 
 ##### Hasil Install
 8. Berikut hasil install Ghost jika berhasil :
     - Hasil instalasi dari terminal jika berhasil. Berikut _screenshot_-nya :
+    
       ![1](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/terminal-ghost-01.png)
       ![2](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/terminal-ghost-02.png)
+     
     - Jalankan `localhost:2368` untuk membuka Ghost Website. Berikut _screenshot_-nya :
+    
       ![3](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/gohst-web-03.png)
+     
     - Untuk menjalankan atau masuk ke dalam admin Ghost kita terlebih dahulu harus membuat akun baru Ghost dengan masuk ke dalam `localhost:2368/ghost`. Berikut _screenshot_-nya :
+    
       ![4](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/gohst-web-04.png)
       
-9. Next step.
-
+    - Masukkan data diri Anda ketika ingin membuat akun Gost baru. Berikut _screenshot_-nya :
+    
+      ![5](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-43-31.png)
+    
+    - Lalu setelah membuat akun Ghost maka Anda langsung diarahkan ke halaman _Invite Staff Users_ yang mana pengguna yang kita undang bisa mengatur admin website dari Ghost. Berikut _screenshot_-nya :
+    
+      ![6](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-46-08.png)
+      
+    - Setela tahap instalasi dan membuat akun Ghost baru selesai maka Anda bisa memakai fitur-fitur atau mengatur website Ghost Anda. Selamat Blogging!. Berikut _screenshot_-nya :
+    
+      ![7](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-46-19.png)
 
 ## Pembahasan
 
