@@ -12,11 +12,7 @@ Ghost adalah platform blogging CMS (content management system) open source yang 
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
-- Unix, Linux atau Windows.
-- Apache Web server 1.3+.
-- PHP 5.2+.
-- MySQL 5.0+.
-- RAM minimal 64 Mb+
+- BELUM ADA
 
 #### Proses Instalasi :
 ##### Membuat user baru :
