@@ -138,4 +138,5 @@ Sebagai komparasi, kami mencoba membandingkan **Ghost** dengan **Wordpress**. Be
 ## Referensi
 
 - Dokumentasi resmi Ghost : https://ghost.org/docs
+- Review Ghost : https://medium.com/menlo-office/ghost-blogging-platform-review-2020-publishing-on-ghost-cms-for-3-months-c5833db3cc41
 
