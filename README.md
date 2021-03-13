@@ -9,7 +9,8 @@
 - RAM minimal 64 Mb+
 
 #### Proses Instalasi :
-1. Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
+#### asd
+1. Login kedalam server dasdasmenggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
     ```
     $ ssh adam@172.18.88.88 -p 22
     ```
@@ -117,3 +118,4 @@
 11. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
     ```
     $ sudo rm -rf /var/www/html/prestashop/install
+    ```
