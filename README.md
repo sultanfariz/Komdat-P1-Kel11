@@ -128,3 +128,14 @@
 11. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
     ```
     $ sudo rm -rf /var/www/html/prestashop/install
+    
+    
+#Pembahasan 
+    *Kelebihan 
+        -Memiliki opsi pengaturan menggunakaan Bahasa Indonesia
+        -Memiliki banyak sekali fitur – fitur yang penting dalam pembuatan sebuah toko Online
+        -Tampilan dari toko online yang responsive, terutama apabila menggunakannya dalam platform mobile
+        -Menyajikan versi trial atau versi demo untuk dicoba.
+    *Kekurangan
+        -Penggunaan plugin yang komplit menyebakan proses loading dari toko online yang menggunakan CMS PrestaShop ini menjadi sangat lambat
+        -Resource memory yang cukup besar, terutama pabila menggunakan fitur lengkap.
