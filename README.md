@@ -2,6 +2,8 @@
 
 ![Ghost](https://snipcart.com/media/204295/ghost.png)
 
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang
 
@@ -126,11 +128,31 @@ Ghost adalah platform blogging CMS (content management system) open source yang 
     
       ![6](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-46-08.png)
       
-    - Setela tahap instalasi dan membuat akun Ghost baru selesai maka Anda bisa memakai fitur-fitur atau mengatur website Ghost Anda. Selamat Blogging!. Berikut _screenshot_-nya :
+    - Setelah tahap instalasi dan membuat akun Ghost baru selesai maka Anda bisa memakai fitur-fitur atau mengatur website Ghost Anda. Selamat Blogging!. Berikut _screenshot_-nya :
     
       ![7](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-46-19.png)
 
+
+## Konfigurasi
+[`^ kembali ke atas ^`](#)
+
+Mengubah tema :
+- Untuk mengubah tema blog dapat melalui menu theme.
+![8](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-51-57.png)
+- Selanjutnya unduh salah satu tema yang kita inginkan kemudian upload ke Ghost secara manual.
+![9](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-54-03.png)
+- Setelah upload berhasil, tema dapat langsung diaktivasi melalui Ghost.
+![10](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-54-14.png)
+
+Menambah tag pada navbar :
+- Masuk ke menu design dan isi judul tag serta link navigasinya.
+![11](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-56-33.png)
+- Klik save dan buka page utama, maka tag tersebut akan langsung muncul di navigation bar.
+![12](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2021-56-50.png)
+
+
 ## Pembahasan
+[`^ kembali ke atas ^`](#)
 
 **Ghost** menawarkan beberapa keunggulan yang menjadikannya sebagai salah satu content management system berbasis Javascript yang banyak dipakai di dunia, antara lain:
 - Ghost memiliki fitur SEO Optimization, yang mana merupakan salah satu fitur wajib dan penting dalam suatu CMS.
@@ -145,12 +167,13 @@ Sementara itu di sisi lain, terdapat beberapa kekurangan dari CMS ini antara lai
 - Setup hosting yang lumayan rumit, sehingga kurang disarankan untuk blogger yang tidak memiliki wawasan teknikal mengenai hosting website.
 
 Sebagai komparasi, kami mencoba membandingkan **Ghost** dengan **Wordpress**. Berikut hasil komparasinya :
-- Ghost ditulis dengan bahasa pemrograman Javascript, sementara Wordpress dibangun dengan bahasa pemrograman PHP. Hal ini membuat performa Ghost menjadi lebih kencang dibanding Wordpress yang menggunakan bahasa pemrograman yang lebih lama.
+- Ghost ditulis dengan bahasa pemrograman Javascript, sementara Wordpress dibangun dengan bahasa pemrograman PHP. Hal ini membuat performa Ghost menjadi lebih kencang dibanding Wordpress yang menggunakan bahasa pemrograman yang lebih tua.
 - Fitur-fitur yang tersedia pada Wordpress sangat lengkap, sehingga kustomisasi yang dapat dilakukan dapat bervariasi. Namun ftur yang lengkap menyebabkan Wordpress dianggap *bulk*. Sementara itu Ghost tidak memiliki fitur yang selengkap Wordpress, namun Ghost jauh lebih ringan dan performanya cepat. Akan tetapi hal tersebut membuat Ghost kurang cocok untuk pengembangan blog yang lebih dari sekedar blog biasa.
 - Hosting Wordpress didukung oleh banyak layanan hosting, sementara Ghost kurang didukung karena berdiri pada stack Node.js sehingga Ghost menyediakan layanan hosting sendiri.
 
 
 ## Referensi
+[`^ kembali ke atas ^`](#)
 
 - Dokumentasi resmi Ghost : https://ghost.org/docs
 - Review Ghost : https://medium.com/menlo-office/ghost-blogging-platform-review-2020-publishing-on-ghost-cms-for-3-months-c5833db3cc41
