@@ -25,75 +25,78 @@
     su - <user>
     ```
 ##### Memperbarui packages
-2. Pastikan seluruh paket sistem kita *up-to-date*, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
+2. Pastikan seluruh paket sistem kita _up-to-date_. Berikut perintah yang harus dilakukan :
     ```
-    $ sudo apt-get update
-    $ sudo apt-get install apache2
-    $ sudo apt-get install mysql-server
-    $ sudo apt-get install php
-    $ sudo apt-get install libapache2-mod-php
-    $ sudo apt-get install php-mysql
-    $ sudo apt-get install php-gd php-mcrypt php-mbstring php-xml php-ssh2 php-curl php-zip php-intl
-    $ sudo apt-get install unzip
-    ```
+    # Perbarui daftar packages
+    sudo apt-get update
 
-3. Unduh **Prestashop** ke dalam direktori kita. 
+    # Perbarui packages yang sudah terinstall
+    sudo apt-get upgrade
     ```
-    $ wget https://download.prestashop.com/download/releases/prestashop_1.7.0.5.zip
+##### Install NGINX
+3. Ghost CMS menggunakan server NGINX dan pengaturan dari SSL membutuhhkan NGINX 1.9.5 atau yang terbaru, sehingga dianjurkan untuk meng-_install_ versi yang terbaru atau jika belum ada _install_ NGINX. Jika ufw diaktifkan, firewall mengizinkan koneksi HTTP dan HTTPS. Berikut perintah yang harus dilakukan : 
     ```
+    # Install NGINX
+    sudo apt-get install nginx
+    
+    sudo ufw allow 'Nginx Full'
+    ```
+##### Install MySQL
+4. Selanjutnya Anda harus meng-_install_ MySQL untuk digunakan pada tahap _production_. Jika Anda menjalankan Ubuntu 18.04 atau 20.04, diperlukan kata sandi untuk memastikan MySQL kompatibel dengan Ghost-CLI. Berikut perintah yang harus dilakukan :
+    ```
+   # Install MySQL (jika belum punya)
+    sudo apt-get install mysql-serve
+    
+    # Setelah meng-install lalu set sebuah kata sandi dengan menjalankan perintah di bawah
+    sudo mysql
 
-4. Ekstrak file yang telah diunduh ke dalam direktori yang kita inginkan.
-    ```
-    $ sudo unzip prestashop_1.7.0.5.zip -d /var/www/html/prestashop
-    ```
+    # Lalu update user dengan menggunakan perinta di bawah
+    # Ganti kata 'password' dengan kata sandi Anda yang baru, namun jangan hapus tanda quote!
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
-5. Ubah otorisasi kepemilikan ke user www-data (webserver)
-    ```
-    $ sudo chown -R www-data:www-data /var/www/html/prestashop
-    ```
+    # Keluar dari MySQL
+    quit
 
-6. Buat database dan user untuk **Prestashop**.
+    # Login lagi menggunakan user yang telah ditetapkan sebelumnya
+    su - <user>
     ```
-    $ mysql -u root -p -v -e "
-        CREATE DATABASE prestashop;
-        CREATE USER 'prestashopuser'@'localhost' IDENTIFIED BY 'prestashoppassword';
-        GRANT ALL PRIVILEGES ON `prestashop`.* TO 'prestashopuser'@'localhost';
-        FLUSH PRIVILEGES;"
+##### Install Node.js
+5. Anda harus memiliki versi Node yang didukung di seluruh sistem dengan cara yang dijelaskan di bawah ini. Jika Anda memiliki pengaturan yang berbeda, Anda mungkin mengalami masalah. Berikut perintah yang harus dilakukan :
     ```
+    # Tambahkan NodeSource APT repository untuk Node 12
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash
 
-7. Konfigurasi Apache web server.
+    # Setelah itu install Node.js
+    sudo apt-get install -y nodejs
     ```
-    $ sudo a2enmod rewrite
-    $ sudo touch /etc/apache2/sites-available/prestashop.conf
-    $ sudo ln -s /etc/apache2/sites-available/prestashop.conf /etc/apache2/sites-enabled/prestashop.conf
-    $ sudo nano /etc/apache2/sites-available/prestashop.conf
+##### Install Ghost-CLI
+6. Ghost-CLI adalah alat _commandline_ untuk membantu Anda menginstal dan mengkonfigurasi Ghost untuk digunakan, dengan cepat dan mudah. Modul npm dapat dipasang dengan `npm` atau `yarn`. Berikut perintah yang harus dilakukan :
+    ```
+    sudo npm install ghost-cli@latest -g
+    ```
+##### Install Ghost
+7. Ghost harus diinstal di direktorinya sendiri, dengan pemilik dan izin yang tepat. Sehingga kita terlebih dahulu membuat sebuah direktori sendiri dengan mengikuti panduan seperti di bawah ini setelah itu, lakukan instalasi Ghost. Berikut perinta yang harus dilakukan :
+    ```
+    # Buat direktori baru: ubah `sitename` sesuai nama yang akan Anda buat
+    sudo mkdir -p /var/www/sitename
 
-    <VirtualHost *:80>
-    ServerAdmin admin@your-domain.com
-    DocumentRoot /var/www/html/prestashop/
-    ServerName your-domain.com
-    ServerAlias www.your-domain.com
-    <Directory /var/www/html/prestashop/>
-    Options FollowSymLinks
-    AllowOverride All
-    Order allow,deny
-    allow from all
-    </Directory>
-    ErrorLog /var/log/apache2/your-domain.com-error_log
-    CustomLog /var/log/apache2/your-domain.com-access_log common
-    </VirtualHost>
-    ```
+    # Set directory owner: ganti <user> dengan nama user yang telah Anda buat
+    sudo chown <user>:<user> /var/www/sitename
 
-8. Edit file `etc/php/7.0/apache2/php.ini` dan tambahkan baris berikut :
+    # Set sebuah permissions dengan benar
+    sudo chmod 775 /var/www/sitename
+
+    # Masuk ke dalam direktori yang telah dibuat
+    cd /var/www/sitename
+    
+    # Terakhir adalah install Ghost
+    ghost install
     ```
-    memory_limit = 128M
-    upload_max_filesize = 16M
-    max_execution_time = 60
-    file_uploads = On
-    allow_url_fopen = On
-    magic_quotes_gpc = Off
-    register_globals = Off
-    ```
+##### Hasil Install
+8. Berikut hasil install Ghost jika berhasil :
+    - Hasil instalasi dari terminal jika berhasil. Berikut _screenshot_-nya :
+    
+      ![1](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/rapid.jpg)
 
 9. Restart kembali Apache web server.
     ```
