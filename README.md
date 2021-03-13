@@ -14,13 +14,14 @@ Ghost adalah platform blogging CMS (content management system) open source yang 
 #### Kebutuhan Sistem :
 - Unix, Linux (Ubuntu 18.04 or 20.04), atau Windows.
 - RAM (dianjurkan) 4GB
-- NGINX 1.9.5 or higher
-- Node.js (JavaScript runtime) 12.0 or higher
-- MySQL 8.0 or higher
+- NGINX 1.9.5 atau terbaru
+- Node.js (JavaScript runtime) 12.0 atau terbaru
+- MySQL 8.0 atau terbaru
+- npm (package manager) 7.5 atau terbaru
 
 #### Proses Instalasi :
 ##### Membuat user baru :
-1. Buka terminal Linux Anda dan login menggunakan SSH, setalah itu dianjurkan untuk membuat akun baru manggunakan _command_ `addUser`. Setelah berhasil membuat akun, berikan _privileges_ dengan mengubah ke _superuser_. Jika berhasil, login dengan akun baru tersebut. Berikut perintah yang harus dilakukan :
+1. Buka terminal Linux Anda dan login menggunakan SSH, setelah itu dianjurkan untuk membuat akun baru manggunakan _command_ `addUser`. Setelah berhasil membuat akun, berikan _privileges_ dengan mengubah ke _superuser_. Jika berhasil, login dengan akun baru tersebut. Berikut perintah yang harus dilakukan :
     ```
     # Login menggunakan SSH
     ssh root@your_server_ip
