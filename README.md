@@ -137,7 +137,5 @@ Sebagai komparasi, kami mencoba membandingkan **Ghost** dengan **Wordpress**. Be
 
 ## Referensi
 
-- Dokumentasi resmi Ghost :
-
-https://ghost.org/docs
+- Dokumentasi resmi Ghost : https://ghost.org/docs
 
