@@ -9,7 +9,7 @@
 - RAM minimal 64 Mb+
 
 #### Proses Instalasi :
-#### asd
+##### asd
 1. Login kedalam server dasdasmenggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
     ```
     $ ssh adam@172.18.88.88 -p 22
