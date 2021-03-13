@@ -98,9 +98,9 @@
       ![1](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/terminal-ghost-01.png)
       ![2](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/terminal-ghost-02.png)
     - Jalankan `localhost:2368` untuk membuka Ghost Website. Berikut _screenshot_-nya :
-      ![3](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/ghost-web-03.png)
+      ![3](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/gohst-web-03.png)
     - Untuk menjalankan atau masuk ke dalam admin Ghost kita terlebih dahulu harus membuat akun baru Ghost dengan masuk ke dalam `localhost:2368/ghost`. Berikut _screenshot_-nya :
-      ![4](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/ghost-web-04.png)
+      ![4](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/gohst-web-04.png)
       
 9. Restart kembali Apache web server.
     ```
