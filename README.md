@@ -103,7 +103,7 @@
 10. Kunjungi alamat IP web server kita untuk meneruskan instalasi.
     - Pilih Bahasa yang akan digunakan
 
-      ![1](https://4.bp.blogspot.com/-4Bd2ScecDIs/WNfZ0H8j3UI/AAAAAAAAGjE/9f7Knlqzgw0a0Lgd2AVQ7Qt53bI-Of8bACLcB/s1600/36.PNG)
+      ![1](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/rapid.jpg)
 
     - Setujui persyaratan yang berlaku
 
