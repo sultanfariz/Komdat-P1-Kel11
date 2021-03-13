@@ -141,3 +141,7 @@
     *Kekurangan
         -Penggunaan plugin yang komplit menyebakan proses loading dari toko online yang menggunakan CMS PrestaShop ini menjadi sangat lambat
         -Resource memory yang cukup besar, terutama pabila menggunakan fitur lengkap.
+
+#Referensi
+
+    - https://dosenit.com/kuliah-it/web/kelebihan-dan-kekurangan-prestashop
