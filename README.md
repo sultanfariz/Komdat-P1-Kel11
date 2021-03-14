@@ -154,14 +154,18 @@ Menambah tag pada navbar :
 [`^ kembali ke atas ^`](#)
 
 Cara pemakaian ghost cukup mudah, aplikasi ini menyediakan tampilan yang mudah dimengerti. Berikut fitur-fitur yang ada di CMS ghost:
-    1. Sebelum menggunakan ghost, kita perlu login terlebih dahulu 
-       ![13](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-05-48.png)
-    2. Setelah login, kita masuk ke halaman dashboard. Pada halaman ini terdapat beberapa menu, yang pertama ada menu post
-       ![14](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-06-03.png)
-    3. Selanjutnya ada menu page yang berfungsi untuk mengatur halaman yang diinginkan
-       ![15](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-11-05.png)
-    4. Terdapat juga menu staff yang berfungsi untuk memanage tim. Di sini kita bisa mengatur role sesuai keinginan
-       ![16](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-12-50.png)
+
+   1. Sebelum menggunakan ghost, kita perlu login terlebih dahulu 
+      ![13](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-05-48.png)
+       
+   2. Setelah login, kita masuk ke halaman dashboard. Pada halaman ini terdapat beberapa menu, yang pertama ada menu post
+      ![14](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-06-03.png)
+       
+   3. Selanjutnya ada menu page yang berfungsi untuk mengatur halaman yang diinginkan
+      ![15](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-11-05.png)
+      
+   4. Terdapat juga menu staff yang berfungsi untuk memanage tim. Di sini kita bisa mengatur role sesuai keinginan
+      ![16](https://github.com/sultanfariz/Komdat-P1-Kel11/blob/main/img/Screenshot%20from%202021-03-13%2022-12-50.png)
 
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
